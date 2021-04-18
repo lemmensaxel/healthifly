@@ -8,7 +8,174 @@
       {
         "title": "Test",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 74,
+                "y": 286
+              },
+              "angle": 0,
+              "id": "3fd50a67-4d93-47d7-a393-a2f32c9b544b",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Drone\nController"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 40,
+                "y": 103
+              },
+              "angle": 0,
+              "id": "2daaa8e7-4d8a-4ac4-8f97-6e86f90ad3a8",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Drone"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "2daaa8e7-4d8a-4ac4-8f97-6e86f90ad3a8"
+              },
+              "target": {
+                "id": "3fd50a67-4d93-47d7-a393-a2f32c9b544b"
+              },
+              "vertices": [
+                {
+                  "x": 65,
+                  "y": 251
+                }
+              ],
+              "id": "507577c8-f353-4e7c-ad36-d7ce2855aedb",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 2",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3fd50a67-4d93-47d7-a393-a2f32c9b544b"
+              },
+              "target": {
+                "id": "2daaa8e7-4d8a-4ac4-8f97-6e86f90ad3a8"
+              },
+              "vertices": [
+                {
+                  "x": 183,
+                  "y": 247
+                }
+              ],
+              "id": "238177d2-de0f-4080-b0f6-017eaf345688",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5250198150973805,
+                    "offset": 0.788805990504833
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "flow 3",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 399,
+                "y": 285
+              },
+              "angle": 0,
+              "id": "097a5a92-34e3-48a7-98ff-db35c814b96d",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Healthifly\nBack-end"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 594,
+          "width": 790
+        }
       }
     ]
   }
